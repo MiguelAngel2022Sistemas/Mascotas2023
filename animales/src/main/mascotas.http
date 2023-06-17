@@ -1,10 +1,10 @@
-POST http://localhost:8080/ws
+POST http://localhost:8080/mascota
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getCountryRequest>
-         <gs:name>chihuahua</gs:name>
+         <gs:name>luffy</gs:name>
       </gs:getCountryRequest>
    </soapenv:Body>
 </soapenv:Envelope>
@@ -12,13 +12,14 @@ POST http://localhost:8080/ws
 
 ###
 
-POST http://localhost:8080/ws
+POST http://localhost:8080/mascota
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getCountryRequest>
-         <gs:name>boxer</gs:name>
+         <gs:name>oscar</gs:name>
       </gs:getCountryRequest>
    </soapenv:Body>
 </soapenv:Envelope>
+

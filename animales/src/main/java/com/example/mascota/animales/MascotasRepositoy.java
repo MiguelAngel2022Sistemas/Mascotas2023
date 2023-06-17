@@ -25,16 +25,16 @@ public class  MascotasRepositoy {
         mascotas.put(chihuahua.getName(), chihuahua);
         //
         Mascota boxer = new Mascota();
-        boxer.setName("luffy");
+        boxer.setName("pluto");
         boxer.setRaza("boxer");
-        boxer.setPropietario("jose daniel flores cuchipampa");
+        boxer.setPropietario("sofia daniel fernades ramona");
 
         mascotas.put(boxer.getName(), boxer);
         //
         Mascota labrador = new Mascota();
-        labrador.setName("luffy");
+        labrador.setName("oscar");
         labrador.setRaza("labrador");
-        labrador.setPropietario("jose daniel flores cuchipampa");
+        labrador.setPropietario("lorezo daniel chalaca huaja");
 
         mascotas.put(labrador.getName(), labrador);
     }

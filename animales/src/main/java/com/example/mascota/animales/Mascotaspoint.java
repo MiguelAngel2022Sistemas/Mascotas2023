@@ -18,7 +18,7 @@ public class Mascotaspoint {
 	private MascotasRepositoy mascotasRepositoy;
 
 	@Autowired
-	public Mascotaspoint(MascotasRepositoy diasRemascotasRepositoypository) {
+	public Mascotaspoint(MascotasRepositoy mascotasRepositoy) {
 		this.mascotasRepositoy = mascotasRepositoy;
 	}
 
